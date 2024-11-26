@@ -14,7 +14,7 @@ with st.sidebar:
          menu_icon="cast", default_index=0)
     selected
 
-day_df = pd.read_csv("/Users/Muhammadgufrilfirdaus/Documents/Analisis_Data/Data/day.csv")
+day_df = pd.read_csv("https://github.com/Gufril-dev/Analisis_Data/blame/main/day.csv")
 hour_df = pd.read_csv("/Users/Muhammadgufrilfirdaus/Documents/Analisis_Data/Data/hour.csv")
 
 if selected == "Resume":
