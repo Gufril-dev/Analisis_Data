@@ -15,8 +15,8 @@ selected = st.sidebar.selectbox(
     index=0,
 )
 
-day_df = pd.read_csv("https://github.com/Gufril-dev/Analisis_Data/blame/main/day.csv")
-hour_df = pd.read_csv("https://github.com/Gufril-dev/Analisis_Data/blame/main/hour.csv")
+day_df = pd.read_csv("https://github.com/Gufril-dev/Analisis_Data/main/day.csv")
+hour_df = pd.read_csv("https://github.com/Gufril-dev/Analisis_Data/main/hour.csv")
 
 if selected == "Resume":
     st.title(f"📑 Resume Bike Sharing 🚲")
