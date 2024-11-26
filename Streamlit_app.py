@@ -6,7 +6,7 @@ import seaborn as sns
 import streamlit as st
 import datetime
 import io
-from streamlit_option_menu import option_menu
+
  
 st.sidebar.title("Bike Sharing Analysis 🚲 \n 👨🏻‍💻 Muhammad Gufril Firdaus") 
 selected = st.sidebar.selectbox(
