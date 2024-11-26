@@ -6,7 +6,6 @@ import seaborn as sns
 import streamlit as st
 import datetime
 import io
-from streamlit_option_menu import option_menu
  
 with st.sidebar:
     st.sidebar.title("Bike Sharing Analysis 🚲 \n 👨🏻‍💻 Muhammad Gufril Firdaus")
