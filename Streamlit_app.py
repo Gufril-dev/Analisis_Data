@@ -8,12 +8,12 @@ import datetime
 import io
 from streamlit_option_menu import option_menu
  
-with st.sidebar:
-    st.sidebar.title("Bike Sharing Analysis 🚲 \n 👨🏻‍💻 Muhammad Gufril Firdaus")
-    selected = option_menu(
-	"Main Menu", ["Resume", "Data Wrangling", "Exploratory Data Analysis (EDA)", "Data Visualization & Explanatory Analysis"], 
-         menu_icon="cast", 
-	 default_index=0)
+st.sidebar.title("Bike Sharing Analysis 🚲 \n 👨🏻‍💻 Muhammad Gufril Firdaus") 
+selected = st.sidebar.selectbox(
+    "Main Menu",
+    ["Resume", "Data Wrangling", "Exploratory Data Analysis (EDA)", "Data Visualization & Explanatory Analysis"], 
+    index=0,
+)
 
 day_df = pd.read_csv("https://github.com/Gufril-dev/Analisis_Data/blame/main/day.csv")
 hour_df = pd.read_csv("https://github.com/Gufril-dev/Analisis_Data/blame/main/hour.csv")
