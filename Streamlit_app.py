@@ -15,7 +15,7 @@ with st.sidebar:
     selected
 
 day_df = pd.read_csv("https://github.com/Gufril-dev/Analisis_Data/blame/main/day.csv")
-hour_df = pd.read_csv("/Users/Muhammadgufrilfirdaus/Documents/Analisis_Data/Data/hour.csv")
+hour_df = pd.read_csv("https://github.com/Gufril-dev/Analisis_Data/blame/main/hour.csv")
 
 if selected == "Resume":
     st.title(f"📑 Resume Bike Sharing 🚲")
