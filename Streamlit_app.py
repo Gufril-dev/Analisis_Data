@@ -55,8 +55,7 @@ if selected == "Resume":
     <br>
     <b>Associated tasks</b><br>
     - Regression: <br>
-		Predication of bike rental count hourly or daily based on the environmental and seasonal settings.
-	<br>
+		Predication of bike rental count hourly or daily based on the environmental and seasonal settings.<br>
 	- Event and Anomaly Detection:  <br>
 		Count of rented bikes are also correlated to some events in the town which easily are traceable via search engines.
 		For instance, query like "2012-10-30 washington d.c." in Google returns related results to Hurricane Sandy. Some of the important events are 
