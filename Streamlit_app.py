@@ -53,15 +53,6 @@ if selected == "Resume":
     extracted and added the corresponding weather and seasonal information. Weather information are extracted from http://www.freemeteo.com.
     <br>
     <br>
-    <b>Associated tasks</b><br>
-    - Regression: <br>
-		Predication of bike rental count hourly or daily based on the environmental and seasonal settings.<br>
-	- Event and Anomaly Detection:  <br>
-		Count of rented bikes are also correlated to some events in the town which easily are traceable via search engines.
-		For instance, query like "2012-10-30 washington d.c." in Google returns related results to Hurricane Sandy. Some of the important events are 
-		identified in [1]. Therefore the data can be used for validation of anomaly or event detection algorithms as well.
-    <br>
-    <br>
     <b>Files</b><br>
     - Readme.txt<br>
 	- hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours<br>
